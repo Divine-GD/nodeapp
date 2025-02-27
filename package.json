@@ -1,0 +1,17 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "getting more familiar with node",
+  "main": "node.js",
+  "scripts": {
+    "test": "console log: Hello"
+  },
+  "author": "Nwadinigwe Divine",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.1",
+    "express": "^4.21.2",
+    "hbs": "^4.2.0",
+    "yargs": "^17.7.2"
+  }
+}

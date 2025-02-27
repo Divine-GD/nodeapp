@@ -1,0 +1,22 @@
+/::1GET
+/gravatar?email=kendivine8@gmail.com::1GET
+/get-email-info?email=kendivine8@gmail.com::1GET
+/::1GET
+/get-email-info?email=kendivine8@gmail.com | ::1 | GET
+/ | ::1 | GET
+/ | ::1 | GET
+/ | ::1 | GET
+/ | ::ffff:127.0.0.1 | GET
+/get-email-info?email=kendivine8@gmail.com | ::ffff:127.0.0.1 | GET
+/get-email-info?email=kendivine8@gmail.com | ::ffff:127.0.0.1 | GET
+/get-email-info?email=kendivine8@gmail.com | ::ffff:127.0.0.1 | GET
+/get-email-info?email=kendivine8@gmail.com | ::ffff:127.0.0.1 | GET
+/get-email-info?email=kendivine8@gmail.com | ::ffff:127.0.0.1 | GET
+/get-email-info?email=kendivine8@gmail.com | ::ffff:127.0.0.1 | GET
+/ | ::ffff:127.0.0.1 | GET
+/gravatar?email=kendivine8@gmail.com | ::1 | GET
+/gravatar?email=kendivine8@gmail.com | ::1 | GET
+/gravatar?email=kendivine8@gmail.com | ::ffff:127.0.0.1 | GET
+/gravatar?email=kendivine8@gmail.com | ::ffff:127.0.0.1 | GET
+/gravatar?email=kendivine8@gmail.com | ::ffff:127.0.0.1 | GET
+/ | ::ffff:127.0.0.1 | GET
