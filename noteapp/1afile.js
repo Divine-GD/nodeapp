@@ -4,6 +4,7 @@ const note = {
     age : 10
 };
 console.log('starting app');
+console.log('after loading changes')
 
 const UserInfo = os.userInfo();
 
