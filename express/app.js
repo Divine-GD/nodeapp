@@ -1,6 +1,9 @@
 const express = require('express')
 const hbs = require('hbs');
-const app = express()
+const app = express();
+
+const port = process.env.PORT || 3000
+
 const pubfile = (dir) => {
    return express.static(__dirname + dir);
 }
@@ -8,6 +11,8 @@ hbs.registerPartials(__dirname + '/views/partials');
 hbs.registerHelper('getCoDate', () =>{
     return new Date().getFullYear() ;
 });  
+
+
 hbs.registerHelper('screamIt', (str) =>{
     return str.toUpperCase();
 });
@@ -36,4 +41,6 @@ app.get('/home', (req, res)=>{
 })
 
 
-app.listen(3000)
+app.listen(port, ()=>{
+   console.log(`Server running ${port}`)
+})
