@@ -7,6 +7,7 @@ const port = process.env.PORT || 3000
 const pubfile = (dir) => {
    return express.static(__dirname + dir);
 }
+
 hbs.registerPartials(__dirname + '/views/partials');
 hbs.registerHelper('getCoDate', () =>{
     return new Date().getFullYear() ;
@@ -19,6 +20,7 @@ hbs.registerHelper('screamIt', (str) =>{
 
 app.use(pubfile('/pubfile'));
 app.set('view engine' , 'hbs');
+app.set("views", path.join(__dirname, "views"));
 
 
 app.get('/', (req, res)=>{
